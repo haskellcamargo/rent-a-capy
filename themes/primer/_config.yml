@@ -1,0 +1,20 @@
+# Header
+menu:
+    Home: /
+    Pricing: /pricing
+    Contact: /contact
+
+# Profile
+profile:
+	location: Everywhere
+	github: haskellcamargo
+
+# Widget
+sidebar: false
+navfixed: false
+
+# WidgetText
+excerpt_link: Read More
+
+#Source Code
+source_code: https://github.com/haskellcamargo/rent-a-capy
