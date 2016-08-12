@@ -5,7 +5,7 @@
 # Default dynamic configuration
 title: Rent a Capy
 subtitle: The best and cutest capybaras you can imagine!
-description: Tired to be alone? Rent a capybara and be happy!
+description: Cute. Cheap. Lovely.
 author: Marcelo Camargo
 language: en-us
 timezone:
@@ -52,7 +52,8 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
-theme: landscape
+theme: primer
 
 deploy:
   type:
+
