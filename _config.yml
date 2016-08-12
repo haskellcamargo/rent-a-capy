@@ -1,0 +1,58 @@
+##
+# Rent a Capy!
+# @author Marcelo Camargo <marcelocamargo@linuxmail.org>
+
+# Default dynamic configuration
+title: Rent a Capy
+subtitle: The best and cutest capybaras you can imagine!
+description: Tired to be alone? Rent a capybara and be happy!
+author: Marcelo Camargo
+language: en-us
+timezone:
+
+# URL
+url: http://haskellcamargo.github.io/
+root: /rent-a-capy
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+default_category: uncategorized
+category_map:
+tag_map:
+
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+per_page: 10
+pagination_dir: page
+
+theme: landscape
+
+deploy:
+  type:
