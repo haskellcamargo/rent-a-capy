@@ -1,0 +1,181 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: slabo, 'open sans', 'segoe ui', helvetica;
+}
+
+.header {
+    background-color: #3FC1C9;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.logo {
+    color: #F5F5F5;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.logo > a {
+    color: white;
+}
+
+.logo > a:hover {
+    color: #FC5185;
+    text-decoration: none;
+}
+
+.logo-description {
+    color: #EEE;
+    font-size: 20px;
+}
+
+.menu {
+    padding-top: 30px;
+    display: inline-flex;
+    float: right;
+}
+
+.menu > div > a.link, a.active-link {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.menu > div > a.link {
+    background-color: #364F6B;
+}
+
+.menu > div > a.link:hover, a.active-link:hover {
+    text-decoration: none;
+    background-color: #FC5185;
+}
+
+.active-link {
+    text-decoration: none;
+    background-color: #FC5185;
+}
+
+.beautiful-capybara {
+    width: 100%;
+    height: 350px;
+    background-image: url('../assets/beautiful.jpg');
+    background-position: center center;
+    -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+.beautiful-capybara:hover {
+    -webkit-filter: grayscale(0%);
+       -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+            filter: grayscale(0%);
+}
+
+.product-description {
+    padding: 30px 40px;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px #333;
+    background-image: url('../assets/quotes.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 80px;
+}
+
+.capybara-gallery {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.capybara > img {
+    width: 100%;
+    border: 3px solid #CCC;
+}
+
+.capybara > img:hover {
+    border-color: #FC5185;
+    cursor: pointer;
+}
+
+.capybara:hover > img {
+    opacity: 0.3;
+}
+
+.capybara:hover {
+    background-color: #FC5185;
+    background-image: url('../assets/heart.png');
+    background-size: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cart:hover {
+    background-image: url('../assets/cart.png');
+}
+
+h3, .far-element {
+    padding: 20px 20px;
+}
+
+footer {
+    background: #333;
+    padding: 30px 20px;
+}
+
+footer > div {
+    background: #333;
+    color: white;
+    width: 100%;
+}
+
+.price {
+    position: relative;
+}
+
+.dollar {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px #333;
+}
+
+form > div {
+    padding-top: 10px;
+}
+
+input {
+    outline: 0;
+}
+
+input[type="text"], input[type="email"] {
+    border: 1px solid #364F6B;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    border: 0;
+    background-color: #FC5185;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.7;
+}
