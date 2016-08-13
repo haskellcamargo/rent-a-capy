@@ -17,3 +17,7 @@ Here, have some screenshots!
 ![](http://i.imgur.com/Ish8EAY.png)
 ![](http://i.imgur.com/0om7Vvw.png)
 ![](http://i.imgur.com/tb67ySi.png)
+
+Ah, before I forget, it is responsive!
+
+![](http://i.imgur.com/4k3z9cJ.png)
