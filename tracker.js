@@ -4,3 +4,4 @@ var sniffer = new CapyTracker({
     time: true
 });
 sniffer.start();
+window.sniffer = sniffer;
